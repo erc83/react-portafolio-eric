@@ -6,6 +6,6 @@ Tecnologías Utilizadas Portafolio:
 
     Back-end: Nodejs, MongoDB, Express.
 
-    npm utilizados: Nodemailer, Cors, Dotenv, axios, jquery, react-particles-js.
+    Npm utilizados: Nodemailer, Cors, Dotenv, axios, jquery, entre otros.
 
-Puedes visitar la direccion del Portafolio: 
+Puedes visitar la dirección del Portafolio: https://eric-espinoza-mansilla.netlify.app

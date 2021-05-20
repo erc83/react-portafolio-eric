@@ -21,11 +21,11 @@ const send = function ({ email, nombre, mensaje }) {
   </head>
   <body>
       <h1>Hola ${nombre}, Un saludo de Eric Espinoza a través de nodemailer.</h1>
-      <h2>para registrar y confirmar tu mensaje enviado desde el portafolio </h2>
+      <h2> </h2>
       <p>Mensaje: ${mensaje}.</p> 
       <p>Email: ${email}.</p>
-      <p>No responder este correo es solo para registro y confirmación</p>
-      <p>Me pondre en contacto lo mas pronto posible gracias.</p>
+      <p>No responder este correo es solo para registro y confirmación del mensaje.</p>
+      <p>Me pondré en contacto lo más pronto posible gracias.</p>
   </body>
   </html>`;
 
@@ -36,7 +36,6 @@ const send = function ({ email, nombre, mensaje }) {
       subject: `Gracias ${nombre}, por contactarme`,
       html,
     };
-    
     transporter.sendMail(mailOptions, (err, data) => {
       if (err) {
         reject(err);
