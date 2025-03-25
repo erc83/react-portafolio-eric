@@ -1,4 +1,4 @@
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Header = () => {
     return (
@@ -7,12 +7,13 @@ const Header = () => {
 
             <h1>Eric Espinoza Mansilla</h1>
         
-            <Typed 
+            <ReactTyped 
                 className="typed-text"
                 strings={["Desarrollador Full Stack javascript", 
-                            "Front-end: React.js, Handlebars, Javascript", 
-                            "Back-end: Nodejs, express ",
-                             "Bases-datos: PostgreSQL, MongoDB"]}
+                            "DevOps: Jenkins, Docker, CI/CD",
+                            "Front-end: React.js, Next.js", 
+                            "Back-end: Nodejs, Nestjs, Express",
+                            "Bases-datos: PostgreSQL, MongoDB"]}
                 typeSpeed={40}            
                 backSpeed={60}
                 loop
